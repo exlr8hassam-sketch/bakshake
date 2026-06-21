@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bakeshake — Request Your Own</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="logo.jpg" alt="Bakeshake Logo" class="logo-image">
+                <span class="logo-text">Bakeshake</span>
+            </a>
+            <nav id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="request.html" class="nav-link active">Request Your Own</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="top-sellers page-padding">
+        <div class="section-header">
+            <span>Request Your Own</span>
+            <h2>Tell us what you want</h2>
+        </div>
+
+        <div class="request-form-container">
+            <form action="#" method="post" class="styled-form">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" placeholder="Full name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+                <label for="details">Request details</label>
+                <textarea id="details" name="details" rows="6" placeholder="Describe the custom product, flavors, size, and any preferences." required></textarea>
+
+                <label for="date">Preferred pickup date</label>
+                <input id="date" name="date" type="date">
+
+                <button type="submit" class="product-button">Send Request</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <nav class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="index.html#about">About Us</a>
+                <a href="request.html">Request Your Own</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="footer-copy">
+                <p>© 2026 Bakeshake. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

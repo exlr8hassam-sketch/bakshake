@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakeshake - Artisan Brownies & Baked Goods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="logo.jpg" alt="Bakeshake Logo" class="logo-image">
+                <span class="logo-text">Bakeshake</span>
+            </a>
+            
+            <nav id="navMenu">
+                <a href="index.html#home" class="nav-link active">Home</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="request.html" class="nav-link">Request Your Own</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="ticker-banner" id="home">
+        <div class="ticker-content">
+            <span class="ticker-text">WE ARE OPEN FROM 9AM - 12PM</span>
+            <span class="ticker-text">WE ARE OPEN FROM 9AM - 12PM</span>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Bakeshake</h1>
+            <p>Handcrafted with premium chocolate and passion</p>
+            <a href="menu.html" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-inner">
+            <div class="section-header">
+                <span>Our Story</span>
+                <h2>Premium Ingredients, Deliberate Passion</h2>
+            </div>
+            <p class="about-text">
+                At Bakeshake, we believe that every sweet treat should be an experience. Born out of a passion for high-quality chocolate and artisan baking techniques, our signatures are crafted daily to ensure perfect texture and rich flavors. From our deep fudgy brownie layers to sweet, delicate crumbles, we bring you comfort in every bite.
+            </p>
+        </div>
+    </section>
+
+    <section id="top-sellers" class="top-sellers">
+        <div class="section-header">
+            <span>Our top sellers</span>
+            <h2>Fan-favorite treats made for every craving</h2>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+        <div class="see-menu-wrap">
+            <a href="menu.html" class="see-menu-link">See whole menu <span class="arrow">&#8594;</span></a>
+        </div>
+    </section>
+
+    <section id="fan-reviews" class="fan-reviews">
+        <div class="fan-reviews-inner">
+            <div class="fan-review-intro">
+                <span>LET FANS SPEAK FOR US</span>
+                <h2>Why people can’t stop raving about our sweets</h2>
+            </div>
+            <div class="review-frame">
+                <button class="review-arrow prev" id="prevReview" aria-label="Previous review">&#10094;</button>
+                <div class="review-content" id="reviewContent">
+                    <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod, urna vitae gravida egestas, tortor purus fermentum justo, eu ultricies lectus est in mauris."</p>
+                    <p class="review-author">— Ava, Brownie Lover</p>
+                </div>
+                <button class="review-arrow next" id="nextReview" aria-label="Next review">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <nav class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="index.html#about">About Us</a>
+                <a href="request.html">Request Your Own</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="footer-copy">
+                <p>© 2026 Bakeshake. All rights reserved.</p>
+                <p>Made with love for every sweet moment.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
